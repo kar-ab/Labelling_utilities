@@ -44,13 +44,14 @@ poles, more importantly the vertical part of poles. Once detected, distance to t
  ![corresponding_instance_segmentation](lidar_to_camera_instance_map/279_instance.png)
  
  
+## Acknowledgement :pray:
+- [KITTI 360 Dataset Team](http://www.cvlibs.net/datasets/kitti-360/)
+- [Cityscapes Dataset Team](https://www.cityscapes-dataset.com/)
+- [Carla Simualtor Team](https://carla.org/)
  
  ### TODO List
 
-- [ ] mention that kitti dataset instance fall in this range for kitti dataset by displaying all cars instance
-- [ ] write the contents of colab fiels neatly in standard format
 - [ ] Cityscapses boudning box are not marked corectly 
-- [ ] acknowledgements to kitti, cityscapes and carla simualtor
 
 
 
