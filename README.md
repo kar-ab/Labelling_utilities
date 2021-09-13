@@ -25,7 +25,7 @@ poles, more importantly the vertical part of poles. Once detected, distance to t
 
 ### 3. Generating instance segmentation in camera images using Lidar ground truth
  
- Carla simulator offers, many ground truth generation options, but still there is no support for instance segmentaion for camera images. But they do provide instance segmentaion for Lidar. Using lidar projeciton on images, . 
+ Carla simulator offers, many ground truth generation options, but still there is no support for instance segmentaion for camera images. But they do provide instance segmentaion for Lidar. Using Lidar projeciton on images, instance segmentation for camera images are generated.
 
  a. **Input-** Sematic Lidar and Camera sensor attached to ego vehicle
  
