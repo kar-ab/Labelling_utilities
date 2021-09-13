@@ -48,10 +48,7 @@ poles, more importantly the vertical part of poles. Once detected, distance to t
 - [KITTI 360 Dataset Team](http://www.cvlibs.net/datasets/kitti-360/)
 - [Cityscapes Dataset Team](https://www.cityscapes-dataset.com/)
 - [Carla Simualtor Team](https://carla.org/)
- 
- ### TODO List
 
-- [ ] Cityscapses boudning box are not marked corectly 
 
 
 
