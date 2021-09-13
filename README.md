@@ -49,6 +49,8 @@ poles, more importantly the vertical part of poles. Once detected, distance to t
 
 - [ ] mention that kitti dataset instance fall in this range for kitti dataset by displaying all cars instance
 - [ ] write the contents of colab fiels neatly in standard format
+- [ ] Cityscapses boudning box are not marked corectly 
+- [ ] acknowledgements to kitti, cityscapes and carla simualtor
 
 
 
