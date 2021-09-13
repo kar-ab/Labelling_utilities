@@ -6,7 +6,7 @@ Simple utilities which can be used for labelling images for object detection and
 
  Object detection is crucial for detecting and localizing dynamic objects such as Cars, Pedestrians in images.
  But some dataset may not necessarily provide ground truth for bounding boxes, but most often they do have other ground truth labels like instance segmentation.
- This [notebook](./bb_instance.ipynb) simply aims at automating the task of labelling bounding box using instance segmentation.
+ This [notebook](./bb_instance.ipynb) simply aims at automating the task of labelling images with bounding box using instance segmentation.
  
    a. **Input-**   KITTI - 360 dataset - (RGB images + instance segmentation)
  
@@ -15,7 +15,7 @@ Simple utilities which can be used for labelling images for object detection and
  
 ### 2. Generating 2D bounding boxes for Poles like structures using semantic segmentation and polygons
 
- Detecting static objects like poles are crucial for localization/ SLAM algorithms. In this [notebook](./bb_pole_semseg_poly.ipynb), the main focus is to detect the 
+ Detecting static objects like poles are crucial for localization/ SLAM algorithms. In this [notebook](./bb_pole_semseg_poly.ipynb), the main focus is to generate bounding boxes for 
 poles, more importantly the vertical part of poles. Once detected, distance to the poles can be obtained lidar projection or stereo depth images.
  
    a. **Input-**   Cityscapes dataset - (RGB images + semantic segmentation + polygon mask for poles)
