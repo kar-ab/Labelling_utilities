@@ -13,17 +13,8 @@ Simple utilities which can be used for labelling images for object detection and
    b. **Output-**   Bounding boxes for dynamic objects like cars and pedestrians
  
  
-### 2. Generating 2D bounding boxes for Poles like structures using semantic segmentation and polygons
 
- Detecting static objects like poles are crucial for localization/ SLAM algorithms. In this [notebook](./bb_pole_semseg_poly.ipynb), the main focus is to generate bounding boxes for 
-poles, more importantly the vertical part of poles. Once detected, distance to the poles can be obtained lidar projection or stereo depth images.
- 
-   a. **Input-**   Cityscapes dataset - (RGB images + semantic segmentation + polygon mask for poles)
- 
-   b. **Output-**   Bounding boxes for Pole 
- 
-
-### 3. Generating instance segmentation in camera images using Lidar ground truth
+### 2. Generating instance segmentation in camera images using Lidar ground truth
  
  Carla simulator offers, many ground truth generation options, but still there is no support for instance segmentaion for camera images. But they do provide instance segmentaion for Lidar. Using Lidar projeciton on images, instance segmentation for camera images are generated.
 
