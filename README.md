@@ -37,7 +37,6 @@ Simple utilities which can be used for labelling images for object detection and
  
 ## Acknowledgement :pray:
 - [KITTI 360 Dataset Team](http://www.cvlibs.net/datasets/kitti-360/)
-- [Cityscapes Dataset Team](https://www.cityscapes-dataset.com/)
 - [Carla Simualtor Team](https://carla.org/)
 
 
